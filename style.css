@@ -1,0 +1,103 @@
+html,
+body {
+    margin: 0;
+}
+
+.top-text {
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.top-text h1 {
+  font-family: 'Nosifer', cursive;
+  font-weight: 400;
+}
+
+.top-text p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.fat-text {
+  font-weight: 900;
+}
+
+.score {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+#score {
+  font-weight: 900;
+}
+
+.pacman_game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 420px;
+  height: 420px;
+  border: solid black;
+}
+
+.grid div {
+  width: 15px;
+  height: 15px;
+}
+
+.pac-dot {
+  background-color: green;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: blue;
+}
+
+.power-pellet {
+  background-color: green;
+  border-radius: 7.5px;
+}
+
+.pacman {
+  background-color: orange;
+  border-radius: 7.5px;
+  border: none;
+
+}
+
+.blinky {
+  background-color: red;
+  border: none;
+}
+
+.pinky {
+  background-color: pink;
+  border: none;
+}
+
+.inky {
+  background-color:aqua;
+  border: none;
+}
+
+.clyde {
+  background-color: orange;
+  border: none;
+}
+
+.scared-ghost {
+  background-color: aquamarine;
+  border: none;
+}
